@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    margin: 50px auto 2.5rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.6875rem;
+    color: #2c786c;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #2c786c;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    padding-bottom: 10px;
+    
+}
+.top-container{
+    background-color: #e4f9ff;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    padding: 100px 0;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 370px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 126px;
+    left: 250px;
+}
+.profile-image{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.intro{
+    width: 50%;
+    margin: 10px auto;
+    line-height: 2;
+
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 82px auto;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-1{
+    width: 25%;
+    float: left;
+    margin-right: 80px;
+
+}
+.skill-2{
+    width: 25%;
+    float: right;
+    margin-right: 80px;
+}
+.skill-3{
+    width: 25%;
+    float: left;
+    margin-right: 80px;
+}
+.contact-message{
+    width: 50%;
+    margin: 43px auto;
+    line-height: 2;
+
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 50px 0 20px;
+}
+.footer-link{
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    color: #2c786c;
+    margin: 25px 22px;
+    font-size: 30px;
+    
+}
+.copyrights{
+    color: aliceblue;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* Button CSS (from css button generator site) */
+/* https://cssbuttongenerator.com/ */
+
+
+.buttonClass {
+    font-size:15px;
+    text-decoration: none;
+    font-family:Arial;
+    padding: 11px 28px;
+    border-width:0px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    box-shadow: -1px 10px 14px -7px #276873;
+    background:linear-gradient(#599bb3, rgba(34, 94, 104, 1));
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(rgba(34, 94, 104, 1), #599bb3);
+  }
+  .footer-link:hover {
+    color: #e4f9ff;
+  }
